@@ -1,0 +1,36 @@
+/* small tablet */
+@media screen and (min-width: 480px){
+	.region-top-menu ul{
+		float: right;
+		text-align:right;
+	}
+    .banner-caption {
+
+	}
+
+    .banner-caption .banner-button {
+        width: 282px;
+
+	}
+	.home-download-button a {
+		/* width:330px; */
+	}
+	#bot-content .features img {
+		float:left;
+		max-width:140px;
+
+	}
+	#bot-content .features ul, #bot-content .features h4 {
+		margin-left:160px;
+
+	}
+
+}
+
+@media screen and (min-width: 528px){
+    .banner-caption {
+
+	}
+
+
+}

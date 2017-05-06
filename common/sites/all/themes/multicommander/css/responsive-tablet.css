@@ -1,0 +1,97 @@
+/* tablet view */
+@media screen and (min-width: 768px){    
+	#header .navbar-collapse { background:url(../images/promo-bg.png) -300px 0px; border: none;}
+    #header .logo {
+		margin-bottom: 18px;
+		width: auto;
+	}
+    .navbar-header { float:none; }
+    .navbar-collapse{
+        padding-right: 0px;
+        margin-top: 0px;
+    } 
+
+    .nav>li>a:hover, .nav>li>a:focus{
+        background-color: transparent;
+    }
+
+
+    #header ul.navbar-nav {
+		margin-left:18px;
+    }
+
+    .navbar-nav>li>a{
+        margin-top: 0px;
+    }
+
+    .navbar-brand{
+        padding-top: 15px;
+    }    
+	#slideshow-banner {
+		padding-top: 30px;
+	}
+	.banner-caption {
+		text-align:left;
+
+		margin-top: 0;
+	}
+    .banner-caption h2 {
+		font-size: 34px;
+
+	}
+	.banner-caption .banner-button {
+		margin-top: 27px;
+	}
+
+
+	.page-header{
+		margin-top: 41px;
+	}
+
+
+	.col-left,.col-right {
+		width: 48%;
+	}
+	.not-front #top-content{
+		padding-top: 86px;
+		background-position:center top;
+
+	}
+	#bot-content .features-title .col-left { width:30%; }
+	#bot-content .features-title .col-right { width:70%; text-align:right; margin-top:36px; }
+	#bot-content .features img {
+		max-width:90px;		
+	}
+	#bot-content .features ul, #bot-content .features h4 {
+		margin-left:110px;
+
+	}
+	#bot-content .features h4 {
+		margin-top:0;
+	}
+	#bot-content .features img {
+		margin-top:18px;
+	}
+	#footer {
+		text-align:left;
+	}
+	#footer .container {
+		background-position: 15px 9px;
+
+	}
+	#footer-copy {
+		margin-left:100px;	
+		margin-top: 65px;
+		float:left;
+		width: 450px;
+
+		margin-bottom: 22px;
+	}
+	#footer-playmain {	
+		margin-top: 65px;
+		float:right;
+		width: 149px;
+
+		text-align: right;
+	}
+}

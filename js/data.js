@@ -29,10 +29,10 @@
    var common = {};
    common.navBars = [
        {key:'index', class:'first leaf', href:'index.htm', aClass:'', title:'首页'},
-       {key:'zhaopin', class:'leaf', href:'zhaopin.htm', aClass:'', title:'招贤纳士'},
-       {key:'apps', class:'leaf', href:'apps.htm', aClass:'', title:'产品介绍'},
-       {key:'privacy', class:'leaf', href:'privacy.htm', aClass:'', title:'隐私保护'},
-       {key:'legal', class:'leaf', href:'legal.htm', aClass:'', title:'法律声明'},
+       //{key:'zhaopin', class:'leaf', href:'zhaopin.htm', aClass:'', title:'招贤纳士'},
+       //{key:'apps', class:'leaf', href:'apps.htm', aClass:'', title:'产品介绍'},
+       //{key:'privacy', class:'leaf', href:'privacy.htm', aClass:'', title:'隐私保护'},
+       //{key:'legal', class:'leaf', href:'legal.htm', aClass:'', title:'法律声明'},
        {key:'about', class:'last leaf', href:'about.htm', aClass:'', title:'联系我们'}
    ];
    common.fncNavBars = function(key){

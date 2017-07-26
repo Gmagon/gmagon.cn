@@ -2,12 +2,16 @@
 <html lang="en">
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8">
-  <title>END USER LICENSE AGREEMENT - Gmagon Software Official Website - Fast, simple & powerful solutions for everyone.</title>
+  <title> END USER LICENSE AGREEMENT  </title>
   <meta http-equiv="X-UA-Compatible" content="IE=8; IE=9; IE=Edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Copy from Apple.com website source code -->
   <meta name="robots" content="noodp" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta property="og.keywords" content="" />
+  <meta property="og.description" content="" />
   <meta property="analytics-track" content="Gmagon Software Official Website - Fast, simple & powerful solutions for everyone. - Index/Tab" />
   <meta property="analytics-s-channel" content="homepage" />
   <meta property="og:title" content="Gmagon Software Official Website - Fast, simple & powerful solutions for everyone." />
@@ -44,7 +48,7 @@
   <meta name="msapplication-TileColor" content="#2f83cd">
   <meta name="msapplication-TileImage" content="/icon/mstile-144x144.png">
   <!-- CSS -->
-  <link rel="stylesheet" href="/build/css/navy-b612b9cfde.css">
+  <link rel="stylesheet" href="/build/css/navy-9f6143947f.css">
 
   <!-- jQuery -->
   <script src="/js/jquery/jquery-1.12.4.min.js"></script>
@@ -266,6 +270,12 @@
 <script src="/build/js/main-f58a74eba0.js"></script>
 <script src="https://cdn.jsdelivr.net/retinajs/1.3.0/retina.min.js" async></script>
 
+<!-- totop -->
+<div id="gmagon_totop" style="position:fixed;bottom:150px;right:30px;cursor: pointer;">
+  <a title="Back to top"><img src="/asset/images/scroll-up.png"/></a>
+</div>
+<script src="/js/totop.js"></script>
+
 
 
 
@@ -274,12 +284,17 @@
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script>
 <script type="text/javascript">
-document.getElementById('search-input-wrap').classList.add('on');
-docsearch({
-  apiKey: '7a75d3ee07f1e82ea4271e0c58c114c3',
-  indexName: 'gmagon',
-  inputSelector: '#search-input'
-});
+try{
+  return;
+  document.getElementById('search-input-wrap').classList.add('on');
+  docsearch({
+    apiKey: '7a75d3ee07f1e82ea4271e0c58c114c3',
+    indexName: 'gmagon',
+    inputSelector: '#search-input'
+  });
+}catch(e){
+}
+
 </script>
 
 
